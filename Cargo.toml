@@ -1,0 +1,8 @@
+[package]
+name = "bate_bola"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+pancurses = { path = "external_lib/pancurses-master", version = "0.16.1" }
+fastrand = { path = "external_lib/fastrand-master", version = "1.5.0" }
