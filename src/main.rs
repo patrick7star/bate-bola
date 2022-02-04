@@ -3,9 +3,6 @@
 // minha biblioteca:
 use bate_bola::*;
 
-// biblioteca externa:
-extern crate fastrand;
-
 
 // execução de testes...
 fn main() {
