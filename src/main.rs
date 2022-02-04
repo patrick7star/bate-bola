@@ -8,12 +8,6 @@ use std::time::{Duration, Instant};
 extern crate fastrand;
 
 
-// velocidade(tempo em miliseg de cada novo quadro).
-const VELOCIDADE:i32 = 100;
-// quantidade limite de toques no chão.
-const TOQUES_LIMITE:u8 = 3;
-
-
 // execução de testes...
 fn main() {
    /* ativando unicode characteres...
@@ -218,7 +212,6 @@ tabuleiro:&Window, janela:&Window) -> (BarraMetadados, BolaMetadados) {
    // retornando dados coletados.
    return (dados_brr, dados_bl);
 }
-
 
 // exibe uma mensagem de termino do jogo. 
 fn mensagem_termino(t:&Window, d:Dimensao) {
